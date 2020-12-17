@@ -10,15 +10,22 @@ Steps being followed-
 3. Normalizing the data
 
 4. Build the model
-Input layer - It contains 28*28 = 784 neurons which is further flattened from 2-dimensional
-Hidden layer 1 - The hidden layer has 64 neurons with relu as the activation function
-Hidden layer 2 - The hidden layer has 64 neurons with relu as the activation function
-Output layer - The layer has 10 neuron as there are 10 classifiers (0 - 9) with softmax function, which will give probabilities for each class. And the class with highest probability is given as output
+
+a)Input layer - It contains 28*28 = 784 neurons which is further flattened from 2-dimensional
+
+b)Hidden layer 1 - The hidden layer has 64 neurons with relu as the activation function
+
+c)Hidden layer 2 - The hidden layer has 64 neurons with relu as the activation function
+
+d) Output layer - The layer has 10 neuron as there are 10 classifiers (0 - 9) with softmax function, which will give probabilities for each class. And the class with highest probability is given as output
 
 5. Compile the model
-Optimizer - adam will help in generating optimal weights, learning from previous weights. Another method is gradient descent for generating optimal weights
-Cross entropy - It helps in generating maximum probability for the correct classifier, after running epochs and iterations. This reduces the loss function
-Accuracy - It helps in understanding how good and reliable is the model.
+
+a)Optimizer - adam will help in generating optimal weights, learning from previous weights. Another method is gradient descent for generating optimal weights
+
+b)Cross entropy - It helps in generating maximum probability for the correct classifier, after running epochs and iterations. This reduces the loss function
+
+c)Accuracy - It helps in understanding how good and reliable is the model.
 
 6. Train the model
 The model is fitted into the train models with 5 epochs. 1 epochs contain 784 iterations.
